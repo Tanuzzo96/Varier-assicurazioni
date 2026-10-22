@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="./pics/varier-logo.png" alt="logo varier" id="logo">
+        <button type="button" id="login-btn" class="white-btns login-btn" >Area personale</button>
+    </header>
+    <div id="overlay">
+        <div id="log-in"> 
+            <div>  
+                <p>ACCEDI A myVARIER</p>    
+                <button id="close-log-btn" >x</button>
+            </div>
+            <input type='email' placeholder="example@email.com">
+            <input type="password" placeholder="Password">
+            <a href="#">Non ricordo i miei dati</a>
+            <button type="submit" class="form-btn due green-btns">Accedi ></button>
+         </div>
+        
+    </div>
+
+    <main>
+    <div id="banner">
+        <img src="./pics/family-habits.jpg" alt="">
+         <form id="form" >
+            <h2>Fai un preventivo in meno di 20 secondi!</h2>
+            <div id="form-btns">
+                <button type="button" id="btn-1" class="form-btn white-btns" aria-selected="true">auto</button>
+                <button type="button" id="btn-2" class="form-btn white-btns" aria-selected="false">Moto</button>     
+                <button type="button" id="btn-3" class="form-btn white-btns" aria-selected="false">Casa</button>
+                <button type="button" id="btn-4" class="form-btn white-btns" aria-selected="false">Salute</button>
+            </div>
+            <div id="form-inputs">
+                <label for="targa">Targa <span id="kind">auto</span></label>
+                <input type="text" placeholder="Targa" class="form-input"> 
+                <label for="data-nascita">Data di nascita del proprietario</label>
+                <input type="text" placeholder="Data di nascita del proprietario" class="form-input">
+                
+                <a href="#">Non ricordo la targa</a>
+                <button type="submit" class="form-btn due green-btns">Fai un preventivo ></button>
+            </div> 
+        </form>
+    </div>
+
+   
+    <div class="background 1">
+
+    </div>
+    <section class="insurance-cards">
+  <article class="insurance-card">
+    <img src="./pics/shield-check.svg" alt="assicurazione personalizzata" class="insurance-logo">
+    <h3>Protezione su misura</h3>
+    <p>
+      Soluzioni assicurative pensate per le tue esigenze.
+    </p>
+  </article>
+
+  <article class="insurance-card">
+     <img src="./pics/car-front.svg" alt="assicurazione personalizzata" class="insurance-logo">
+    <h3>Assicurazione auto</h3>
+    <p>
+      Coperture per viaggiare con maggiore tranquillità.
+    </p>
+  </article>
+
+  <article class="insurance-card">
+    <img src="./pics/house-heart.svg" alt="assicurazione personalizzata" class="insurance-logo">
+    <h3>Casa e famiglia</h3>
+    <p>
+      Proteggi la casa e le persone a cui tieni.
+    </p>
+  </article>
+
+  <article class="insurance-card">
+    <img src="./pics/handshake.svg" alt="assicurazione personalizzata" class="insurance-logo">
+    <h3>Consulenza dedicata</h3>
+    <p>
+      Ti aiutiamo a scegliere la copertura adatta.
+    </p>
+  </article>
+  <article class="insurance-card">
+    <img src="./pics/heart-pulse.svg" alt="assicurazione personalizzata" class="insurance-logo">
+    <h3>Salute e benessere</h3>
+    <p>
+     Soluzioni assicurative per tutelare la tua salute e affrontare con maggiore serenità gli imprevisti.
+    </p>
+  </article>
+  <article class="insurance-card">
+    <img src="./pics/briefcase-business.svg" alt="assicurazione personalizzata" class="insurance-logo">
+    <h3>Protezione professionale</h3>
+    <p>
+      Coperture dedicate a professionisti e imprese per proteggere l'attività lavorativa dai rischi.
+    </p>
+  </article>
+</section>
+
+<section id="myarea">
+    <img src="./pics/myarea.avif" alt="" id="myarea-img">
+    <div id="myarea-content">
+        <h3>accedi alla tua area personale</h3>
+        <p>Gestisci le tue polizze, visualizza i documenti e resta aggiornato sulle novità del mondo Varier.</p>
+        <button type="button" id="myarea-btn" class="login-btn green-btns">Accedi</button>
+    </div>
+
+</section>
+
+    <div class="background 2">
+        
+    </div>
+
+    <section id="review-container">
+        <h4>Recensioni</h4>
+        <div class="review-cards">
+            <div class="review-card">
+                <div class="stars">
+                 ★★★★★
+                </div>
+                <p>"Varier mi ha aiutato a trovare la polizza giusta per la mia auto. Il processo è stato semplice e veloce!"</p>
+                <h5>- Marco R.</h5>
+            </div>
+            <div class="review-card">
+                <div class="stars">
+                 ★★★★★
+                </div>
+                <p>"Grazie a Varier ho trovato una copertura completa per la mia famiglia. Consiglio vivamente!"</p>
+                <h5>- Laura B.</h5>
+            </div>
+            <div class="review-card">   
+                <div class="stars">
+                    ★★★★★  
+                    
+                </div>
+                <p>"Il servizio clienti di Varier è eccezionale. Hanno risposto a tutte le mie domande in modo chiaro e professionale."</p>
+                <h5>- Giulia M.</h5>
+            </div>
+
+        </div>
+
+    </section>
+  </main>
+  <footer>
+    <p>Il fra dev company</p>
+    <p>Varier Assicurazioni</p>
+    <p>2026, all rights reserved</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
